@@ -3,6 +3,8 @@ title: "Embracing the Apple Ecosystem"
 date: 2023-06-20T17:11:01+07:00
 categories: ["Blog"]
 tags: ["first"]
+ShowToc: true
+draft : true
 # author: ["Me", "You"] # multiple authors
 
 ---
@@ -13,7 +15,7 @@ Picture this: It was 2020, and I stumbled upon a sweet deal on a secondhand iPho
 
 
 
-* **The Apple Ecosystem: A Seamless Symphony of Gadgets**
+*  **The Apple Ecosystem: A Seamless Symphony of Gadgets**
 
     Within a year of joining Team Apple, I couldn't resist diving deeper into the Apple ecosystem. AirPods Pro? Check. Apple Watch? You bet. The integration between these devices is simply unparalleled. It's like watching a perfectly orchestrated symphony, with each device harmoniously playing its part. From effortless syncing to synchronized notifications, the Apple ecosystem is a true tech lover's paradise.
 

@@ -24,8 +24,8 @@ defaultTheme = "light"
 # disableThemeToggle = false
 ShowReadingTime = true
 # ShowShareButtons = true
-ShowPostNavLinks = true
-ShowBreadCrumbs = true
+ShowPostNavLinks = false
+ShowBreadCrumbs = false
 ShowCodeCopyButtons = true
 ShowWordCount = true
 # ShowRssButtonInSectionTermList = true
@@ -35,12 +35,23 @@ UseHugoToc = true
 # comments = false
 hidemeta = false
 hideSummary = false
-showtoc = false
-tocopen = false
+showtoc = true
+tocopen = true
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+style = "dracula"
+lineNos = false
+noClasses = false
+
 
 [params.homeInfoParams]
 Title = "Farchan Rifai"
-Content = "I'm a young and enthusiastic professional who has been responsible for providing accounting and finance services to companies from various industries. Experienced with Jurnal and Axapta, also a solid knowledge and experience with Xero. I have a strong interest in learning new things and gaining new experiences. While I enjoy working independently, I thrive when working in a team. I’m interested in accounting and taxation. I am also fascinated with graphic design and how consumer technology evolves. I spend my spare time on sports, learning design and programming, and hanging out with friends and family."
+Content = """ Whether you're a friend stopping by for a virtual hangout or someone eager to collaborate with me, I'm stoked to have you here. This site is where the magic happens – a mix of all things cool and professional. This is the place to be for random blog posts about absolutely anything under the sun.
+
+To all you awesome folks interested in working with me, my profile and contact details are all up there! 🙄👆🏻"""
 
 [[params.socialIcons]]
 name = "Linkedin"
@@ -63,6 +74,12 @@ identifier = "home"
 name = "🏠 Home"
 url = "/"
 weight = 20
+
+[[menu.main]]
+identifier = "about-me"
+name = "🙋🏻‍♂️ Profile"
+url = "/about-me"
+weight = 21
 
 [[menu.main]]
 identifier = "posts"
