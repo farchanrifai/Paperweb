@@ -55,7 +55,7 @@ body:not(.dark) #sun {
     list-style: none;
     word-break: keep-all;
     overflow-x: auto;
-    white-space: nowrap;
+    white-space: wrap;
     margin-right: 20px;
 }
 
@@ -65,16 +65,21 @@ body:not(.dark) #sun {
 
 #menu a {
     font-size: 14px;
+    transition: color 0.4s;
+    vertical-align: middle;
+    color: rgba(30, 30, 30, 0.5);
 }
 
 #menu .active {
-    font-weight: 500;
     border-bottom: 0px solid currentColor;
+    color: var(--link-hover-color);
+    color: rgba(30, 30, 30, 1);
 }
 
 #menu a:hover {
-    border-bottom: 1.5px solid var(--primary);
-    height: 50px;
+    color: var(--link-hover-color);
+    box-shadow: var(--link-hover-underline-shadow);
+    color: rgba(30, 30, 30, 1);
 }
 
 .top-link {
